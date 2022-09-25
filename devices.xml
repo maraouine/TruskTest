@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<devices>
+	<device>
+		<informations>
+			<nom>SAMSUNG_GALAXY_A32</nom>
+			<version>11</version>
+			<udid>RF8R80JBE4H</udid>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+		</informations>
+		<server>
+		</server>
+		<capabilities>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+			<deviceName>SM-A325F</deviceName>
+			<noReset>false</noReset>
+			<platformVersion>11</platformVersion>
+			<automationName>uiautomator2</automationName>
+			<systemPort>50000</systemPort>
+		</capabilities>
+	</device>
+
+	<device>
+		<informations>
+			<nom>SAMSUNG_S7</nom>
+			<version>8.0.0</version>
+			<udid>988667375034514752</udid>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+		</informations>
+		<server>
+		</server>
+		<capabilities>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+			<deviceName>SM-G930F</deviceName>
+			<noReset>true</noReset>
+			<platformName>Android</platformName>
+			<platformVersion>8.0.0</platformVersion>
+			<systemPort>50010</systemPort>
+		</capabilities>
+	</device>
+
+	<device>
+		<informations>
+			<nom>IPHONE 14</nom>
+			<version>8.0.0</version>
+			<udid>00008030-000911522223802E</udid>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+		</informations>
+		<server>
+		</server>
+		<capabilities>
+			<appPackage>packageName</appPackage>
+			<appActivity>packageNameMainactivity</appActivity>
+			<deviceName>SM-G930F</deviceName>
+			<noReset>true</noReset>
+			<platformName>Android</platformName>
+			<platformVersion>8.0.0</platformVersion>
+			<systemPort>50010</systemPort>
+		</capabilities>
+	</device>
+
+</devices>

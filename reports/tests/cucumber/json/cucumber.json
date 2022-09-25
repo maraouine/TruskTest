@@ -1,0 +1,1919 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59999200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the connexion page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_am_on_the_connexion_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 655000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the email or phone number filed",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the password field",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_password_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see connection button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_connection_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T16:41:25.383Z",
+        "before": [
+          {
+            "result": {
+              "duration": 140850500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5966800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Connect to TruskX account using an existing account",
+        "description": "",
+        "id": "connection;connect-to-truskx-account-using-an-existing-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1304800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter a phone number associated to an account",
+            "match": {
+              "location": "StepDefinitions.Connection.i_enter_a_phone_number_associated_to_an_account()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter a password associated to an account",
+            "match": {
+              "location": "StepDefinitions.Connection.i_enter_a_password_associated_to_an_account()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 92800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on connection",
+            "match": {
+              "location": "StepDefinitions.Connection.I_click_on_connection()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 908100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The connection is successful",
+            "match": {
+              "location": "StepDefinitions.Connection.The_connection_is_successful()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see my first and last name at the top of the page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_my_first_and_last_name_at_the_top_of_the_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the connexion page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_am_on_the_connexion_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the email or phone number filed",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the password field",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_password_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see connection button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_connection_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T16:41:25.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4677400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2999200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Connect to TruskX account using an existing account with invalid password",
+        "description": "",
+        "id": "connection;connect-to-truskx-account-using-an-existing-account-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter a phone number associated to an account",
+            "match": {
+              "location": "StepDefinitions.Connection.i_enter_a_phone_number_associated_to_an_account()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 925800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter an invalid password",
+            "match": {
+              "location": "StepDefinitions.Connection.I_enter_an_invalid_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on connection",
+            "match": {
+              "location": "StepDefinitions.Connection.I_click_on_connection()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1214900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see a popup indicating that the password associated with this account is invalid",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_a_popup_indicating_that_the_password_associated_with_this_account_is_invalid()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 212300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Connection",
+    "description": "  This feature allow user to connect to his account using phone number or email",
+    "id": "connection",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Connection.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-25T16:41:25.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create a post using Truskx account",
+        "description": "",
+        "id": "posts-creation;create-a-post-using-truskx-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am connected to my Trusk space",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.i_am_connected_to_my_trusk_space()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on publish a post",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.i_click_on_publish_a_post()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see a text field is displayed allowing you to fill in the details of the post",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.i_should_see_a_text_field_is_displayed_allowing_you_to_fill_in_the_details_of_the_post()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 812900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the content of the post",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.i_enter_the_content_of_the_post()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on publish post",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.I_click_on_publish_post()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see a popup indicating that the post has been published",
+            "match": {
+              "location": "StepDefinitions.PostsCreation.I_should_see_a_popup_indicating_that_the_post_has_been_published()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Posts creation",
+    "description": "  This feature allow user to publish a post ",
+    "id": "posts-creation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PostsCreation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-25T16:41:25.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5994500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4002200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Receive SMS notifications",
+        "description": "",
+        "id": "posts-notifications;receive-sms-notifications",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1142300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am registered with my phone number",
+            "match": {
+              "location": "StepDefinitions.PostsNotifications.i_am_registered_with_my_phone_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a Trusk member published a post",
+            "match": {
+              "location": "StepDefinitions.PostsNotifications.a_trusk_member_published_a_post()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should  receive an SMS notification with get the following message: Hello First name, you have a new post to read on TruskX. To view it, click on this link xxxxx/truskX.com.",
+            "match": {
+              "location": "StepDefinitions.PostsNotifications.i_should_receive_an_sms_notification_with_get_the_following_message_hello_first_name_you_have_a_new_post_to_read_on_trusk_x_to_view_it_click_on_this_link_xxxxx_trusk_x_com()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1008200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the link indicated on message",
+            "match": {
+              "location": "StepDefinitions.PostsNotifications.i_click_on_the_link_indicated_on_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be directed to the Posts page",
+            "match": {
+              "location": "StepDefinitions.PostsNotifications.i_should_be_directed_to_the_posts_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Posts notifications",
+    "description": "  This feature allow user to verify if she/he can receive notification by phone",
+    "id": "posts-notifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PostsNotifications.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the connexion page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_am_on_the_connexion_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the email or phone number filed",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1002900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the password field",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_password_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1002400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see connection button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_connection_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 995300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The registration page should be open",
+            "match": {
+              "location": "StepDefinitions.Registration.The_registration_page_should_be_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1063200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the email or phone number filed on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the password field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_field_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the password confirmation field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the register button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_register_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see GCU checkbox",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_GCU_checkbox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T16:41:25.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Register with invalid phone number",
+        "description": "",
+        "id": "regestration;register-with-invalid-phone-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter an invalid phone number",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_an_invalid_phone_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter a password that meets the requirements",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_a_password_that_meets_the_requirements()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see a popup indicating that the phone number is invalid",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_a_popup_indicating_that_the_phone_number_is_invalid()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalidPhoneNumber"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the connexion page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_am_on_the_connexion_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the email or phone number filed",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the password field",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_password_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 995600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see connection button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_connection_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The registration page should be open",
+            "match": {
+              "location": "StepDefinitions.Registration.The_registration_page_should_be_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the email or phone number filed on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the password field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_field_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1006200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the password confirmation field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 149500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the register button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_register_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 303300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see GCU checkbox",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_GCU_checkbox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T16:41:25.839Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3011400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3988100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Register with invalid password",
+        "description": "",
+        "id": "regestration;register-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 695600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter an existing phone number",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_an_existing_phone_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter a password that does not meet the requirements",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_a_password_that_does_not_meet_the_requirements()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see a popup indicating that the password entered does not meet the requirements",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_a_popup_indicating_that_the_password_entered_does_not_meet_the_requirements()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalidPasswordRequirements"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the connexion page",
+            "match": {
+              "location": "StepDefinitions.Connection.I_am_on_the_connexion_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 190800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the email or phone number filed",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the password field",
+            "match": {
+              "location": "StepDefinitions.Connection.I_should_see_the_password_field()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1004400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see connection button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_connection_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The registration page should be open",
+            "match": {
+              "location": "StepDefinitions.Registration.The_registration_page_should_be_open()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the email or phone number filed on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the password field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_field_registerPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 391100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see the password confirmation field on registration page",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the register button",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_the_register_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see GCU checkbox",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_GCU_checkbox()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-25T16:41:25.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3277900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Connection.beforeClass()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3146000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Registration.beforeClass()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Register with valid phone number and password",
+        "description": "",
+        "id": "regestration;register-with-valid-phone-number-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter an existing phone number",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_an_existing_phone_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter a password that meets the requirements",
+            "match": {
+              "location": "StepDefinitions.Registration.I_enter_a_password_that_meets_the_requirements()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on registration",
+            "match": {
+              "location": "StepDefinitions.Registration.I_click_on_registration()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see a popup to confirm that registration is with success",
+            "match": {
+              "location": "StepDefinitions.Registration.I_should_see_a_popup_to_confirm_that_registration_is_with_success()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 937700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I must be logged into my account",
+            "match": {
+              "location": "StepDefinitions.Registration.I_must_be_logged_into_my_account()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.Hooks.addScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validPhoneNumberANDPassword"
+          }
+        ]
+      }
+    ],
+    "name": "Regestration",
+    "description": "  This feature allow user to create an account on TruskX using his phone number or email",
+    "id": "regestration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registration.feature",
+    "tags": []
+  }
+]

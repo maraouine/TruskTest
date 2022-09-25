@@ -1,0 +1,947 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">sept. 25, 2022 06:41:24 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@validPhoneNumberANDPassword</a><a class="dropdown-item" href="#">@invalidPasswordRequirements</a><a class="dropdown-item" href="#">@invalidPhoneNumber</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Connection</p>
+            <p class="text-sm">
+              <span>18:41:25 PM</span> / <span>00:00:279</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Connection</h5>
+<span class='badge badge-success'>09.25.2022 18:41:25</span>
+<span class='badge badge-danger'>09.25.2022 18:41:25</span>
+<span class='badge badge-default'>00:00:279</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"> This feature allow user to connect to his account using phone number or email</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Connect to TruskX account using an existing account</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_am_on_the_connexion_page()">
+                <span>Given I am on the connexion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()">
+                <span>And I should see the email or phone number filed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_password_field()">
+                <span>And I should see the password field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_connection_button()">
+                <span>And I should see connection button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.i_enter_a_phone_number_associated_to_an_account()">
+                <span>When I enter a phone number associated to an account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.i_enter_a_password_associated_to_an_account()">
+                <span>* I enter a password associated to an account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_click_on_connection()">
+                <span>* I click on connection</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.The_connection_is_successful()">
+                <span>Then The connection is successful</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_my_first_and_last_name_at_the_top_of_the_page()">
+                <span>* I should see my first and last name at the top of the page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Connect to TruskX account using an existing account with invalid password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_am_on_the_connexion_page()">
+                <span>Given I am on the connexion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()">
+                <span>And I should see the email or phone number filed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_password_field()">
+                <span>And I should see the password field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_connection_button()">
+                <span>And I should see connection button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.i_enter_a_phone_number_associated_to_an_account()">
+                <span>When I enter a phone number associated to an account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_enter_an_invalid_password()">
+                <span>* I enter an invalid password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_click_on_connection()">
+                <span>* I click on connection</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_a_popup_indicating_that_the_password_associated_with_this_account_is_invalid()">
+                <span>Then I should see a popup indicating that the password associated with this account is invalid</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Posts creation</p>
+            <p class="text-sm">
+              <span>18:41:25 PM</span> / <span>00:00:016</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Posts creation</h5>
+<span class='badge badge-success'>09.25.2022 18:41:25</span>
+<span class='badge badge-danger'>09.25.2022 18:41:25</span>
+<span class='badge badge-default'>00:00:016</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+</div>
+<div class="m-t-10 m-l-5"> This feature allow user to publish a post </div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="43"><span class="badge log pass-bg mr-2">Pass</span>Create a post using Truskx account</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.i_am_connected_to_my_trusk_space()">
+                <span>Given I am connected to my Trusk space</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.i_click_on_publish_a_post()">
+                <span>When I click on publish a post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.i_should_see_a_text_field_is_displayed_allowing_you_to_fill_in_the_details_of_the_post()">
+                <span>Then I should see a text field is displayed allowing you to fill in the details of the post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.i_enter_the_content_of_the_post()">
+                <span>When I enter the content of the post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.I_click_on_publish_post()">
+                <span>* I click on publish post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsCreation.I_should_see_a_popup_indicating_that_the_post_has_been_published()">
+                <span>Then I should see a popup indicating that the post has been published</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Posts notifications</p>
+            <p class="text-sm">
+              <span>18:41:25 PM</span> / <span>00:00:015</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Posts notifications</h5>
+<span class='badge badge-success'>09.25.2022 18:41:25</span>
+<span class='badge badge-danger'>09.25.2022 18:41:25</span>
+<span class='badge badge-default'>00:00:015</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+</div>
+<div class="m-t-10 m-l-5"> This feature allow user to verify if she/he can receive notification by phone</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>Receive SMS notifications</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.PostsNotifications.i_am_registered_with_my_phone_number()">
+                <span>Given I am registered with my phone number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsNotifications.a_trusk_member_published_a_post()">
+                <span>When a Trusk member published a post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsNotifications.i_should_receive_an_sms_notification_with_get_the_following_message_hello_first_name_you_have_a_new_post_to_read_on_trusk_x_to_view_it_click_on_this_link_xxxxx_trusk_x_com()">
+                <span>Then I should  receive an SMS notification with get the following message: Hello First name, you have a new post to read on TruskX. To view it, click on this link xxxxx/truskX.com.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsNotifications.i_click_on_the_link_indicated_on_message()">
+                <span>When I click on the link indicated on message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PostsNotifications.i_should_be_directed_to_the_posts_page()">
+                <span>Then I should be directed to the Posts page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="72"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Regestration</p>
+            <p class="text-sm">
+              <span>18:41:25 PM</span> / <span>00:00:095</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Regestration</h5>
+<span class='badge badge-success'>09.25.2022 18:41:25</span>
+<span class='badge badge-danger'>09.25.2022 18:41:25</span>
+<span class='badge badge-default'>00:00:095</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=72</span>
+</div>
+<div class="m-t-10 m-l-5"> This feature allow user to create an account on TruskX using his phone number or email</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Register with invalid phone number</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_am_on_the_connexion_page()">
+                <span>Given I am on the connexion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()">
+                <span>And I should see the email or phone number filed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_password_field()">
+                <span>And I should see the password field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_connection_button()">
+                <span>And I should see connection button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>When I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.The_registration_page_should_be_open()">
+                <span>Then The registration page should be open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()">
+                <span>* I should see the email or phone number filed on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_field_registerPage()">
+                <span>* I should see the password field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()">
+                <span>* I should see the password confirmation field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_register_button()">
+                <span>* I should see the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_GCU_checkbox()">
+                <span>* I should see GCU checkbox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_an_invalid_phone_number()">
+                <span>When I enter an invalid phone number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_a_password_that_meets_the_requirements()">
+                <span>* I enter a password that meets the requirements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>* I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_a_popup_indicating_that_the_phone_number_is_invalid()">
+                <span>Then I should see a popup indicating that the phone number is invalid</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="106"><span class="badge log pass-bg mr-2">Pass</span>Register with invalid password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_am_on_the_connexion_page()">
+                <span>Given I am on the connexion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()">
+                <span>And I should see the email or phone number filed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_password_field()">
+                <span>And I should see the password field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_connection_button()">
+                <span>And I should see connection button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>When I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.The_registration_page_should_be_open()">
+                <span>Then The registration page should be open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()">
+                <span>* I should see the email or phone number filed on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_field_registerPage()">
+                <span>* I should see the password field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()">
+                <span>* I should see the password confirmation field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_register_button()">
+                <span>* I should see the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_GCU_checkbox()">
+                <span>* I should see GCU checkbox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_an_existing_phone_number()">
+                <span>When I enter an existing phone number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_a_password_that_does_not_meet_the_requirements()">
+                <span>* I enter a password that does not meet the requirements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>* I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_a_popup_indicating_that_the_password_entered_does_not_meet_the_requirements()">
+                <span>Then I should see a popup indicating that the password entered does not meet the requirements</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="139"><span class="badge log pass-bg mr-2">Pass</span>Register with valid phone number and password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_am_on_the_connexion_page()">
+                <span>Given I am on the connexion page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_email_or_phone_number_filed()">
+                <span>And I should see the email or phone number filed</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Connection.I_should_see_the_password_field()">
+                <span>And I should see the password field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_connection_button()">
+                <span>And I should see connection button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>When I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.The_registration_page_should_be_open()">
+                <span>Then The registration page should be open</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_email_or_phone_number_filed_registerPage()">
+                <span>* I should see the email or phone number filed on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_field_registerPage()">
+                <span>* I should see the password field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_password_confirmation_field_on_registration_page()">
+                <span>* I should see the password confirmation field on registration page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_the_register_button()">
+                <span>* I should see the register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_GCU_checkbox()">
+                <span>* I should see GCU checkbox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_an_existing_phone_number()">
+                <span>When I enter an existing phone number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_enter_a_password_that_meets_the_requirements()">
+                <span>* I enter a password that meets the requirements</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_click_on_registration()">
+                <span>* I click on registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_should_see_a_popup_to_confirm_that_registration_is_with_success()">
+                <span>Then I should see a popup to confirm that registration is with success</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.Registration.I_must_be_logged_into_my_account()">
+                <span>* I must be logged into my account</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validPhoneNumberANDPassword</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validPhoneNumberANDPassword</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:41:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='72' id='139'>Register with valid phone number and password</a>
+<div class="">
+<span class="badge badge-default">Regestration.Register with valid phone number and password</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@invalidPasswordRequirements</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidPasswordRequirements</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:41:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='72' id='106'>Register with invalid password</a>
+<div class="">
+<span class="badge badge-default">Regestration.Register with invalid password</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@invalidPhoneNumber</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidPhoneNumber</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:41:25 PM</td>
+<td>
+<a href="#" class="linked" test-id='72' id='73'>Register with invalid phone number</a>
+<div class="">
+<span class="badge badge-default">Regestration.Register with invalid phone number</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>sept. 25, 2022 06:41:24 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>sept. 25, 2022 06:41:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>7</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>74</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Connection":0.279,"Posts creation":0.016,"Posts notifications":0.015,"Regestration":0.095
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@validPhoneNumberANDPassword</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@invalidPasswordRequirements</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@invalidPhoneNumber</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 7,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 74,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

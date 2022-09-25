@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="7" skipped="0" total="7">
+    <suite duration-ms="761" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="761" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Connection">
+                <test-method duration-ms="212" finished-at="2022-09-25T16:41:25.672024100Z" name="Connect to TruskX account using an existing account" started-at="2022-09-25T16:41:25.383187200Z" status="PASS"/>
+                <test-method duration-ms="13" finished-at="2022-09-25T16:41:25.708235200Z" name="Connect to TruskX account using an existing account with invalid password" started-at="2022-09-25T16:41:25.689028Z" status="PASS"/>
+            </class>
+            <class name="Posts creation">
+                <test-method duration-ms="10" finished-at="2022-09-25T16:41:25.738022700Z" name="Create a post using Truskx account" started-at="2022-09-25T16:41:25.720024600Z" status="PASS"/>
+            </class>
+            <class name="Posts notifications">
+                <test-method duration-ms="13" finished-at="2022-09-25T16:41:25.768026900Z" name="Receive SMS notifications" started-at="2022-09-25T16:41:25.750023200Z" status="PASS"/>
+            </class>
+            <class name="Regestration">
+                <test-method duration-ms="13" finished-at="2022-09-25T16:41:25.811069800Z" name="Register with invalid phone number" started-at="2022-09-25T16:41:25.785029600Z" status="PASS"/>
+                <test-method duration-ms="12" finished-at="2022-09-25T16:41:25.857024200Z" name="Register with invalid password" started-at="2022-09-25T16:41:25.839023400Z" status="PASS"/>
+                <test-method duration-ms="10" finished-at="2022-09-25T16:41:25.885025600Z" name="Register with valid phone number and password" started-at="2022-09-25T16:41:25.867036100Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>

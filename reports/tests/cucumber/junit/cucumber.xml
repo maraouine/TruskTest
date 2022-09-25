@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.761">
+    <testcase classname="Connection" name="Connect to TruskX account using an existing account" time="0.288">
+        <system-out>
+            <![CDATA[Given I am on the connexion page............................................passed
+And I should see the email or phone number filed............................passed
+And I should see the password field.........................................passed
+And I should see connection button..........................................passed
+When I enter a phone number associated to an account........................passed
+* I enter a password associated to an account...............................passed
+* I click on connection.....................................................passed
+Then The connection is successful...........................................passed
+* I should see my first and last name at the top of the page................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Connection" name="Connect to TruskX account using an existing account with invalid password" time="0.019">
+        <system-out>
+            <![CDATA[Given I am on the connexion page............................................passed
+And I should see the email or phone number filed............................passed
+And I should see the password field.........................................passed
+And I should see connection button..........................................passed
+When I enter a phone number associated to an account........................passed
+* I enter an invalid password...............................................passed
+* I click on connection.....................................................passed
+Then I should see a popup indicating that the password associated with this account is invalid.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Posts creation" name="Create a post using Truskx account" time="0.017">
+        <system-out>
+            <![CDATA[Given I am connected to my Trusk space......................................passed
+When I click on publish a post..............................................passed
+Then I should see a text field is displayed allowing you to fill in the details of the post.passed
+When I enter the content of the post........................................passed
+* I click on publish post...................................................passed
+Then I should see a popup indicating that the post has been published.......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Posts notifications" name="Receive SMS notifications" time="0.018">
+        <system-out>
+            <![CDATA[Given I am registered with my phone number..................................passed
+When a Trusk member published a post........................................passed
+Then I should  receive an SMS notification with get the following message: Hello First name, you have a new post to read on TruskX. To view it, click on this link xxxxx/truskX.com..passed
+When I click on the link indicated on message...............................passed
+Then I should be directed to the Posts page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Regestration" name="Register with invalid phone number" time="0.026">
+        <system-out>
+            <![CDATA[Given I am on the connexion page............................................passed
+And I should see the email or phone number filed............................passed
+And I should see the password field.........................................passed
+And I should see connection button..........................................passed
+When I click on registration................................................passed
+Then The registration page should be open...................................passed
+* I should see the email or phone number filed on registration page.........passed
+* I should see the password field on registration page......................passed
+* I should see the password confirmation field on registration page.........passed
+* I should see the register button..........................................passed
+* I should see GCU checkbox.................................................passed
+When I enter an invalid phone number........................................passed
+* I enter a password that meets the requirements............................passed
+* I click on registration...................................................passed
+Then I should see a popup indicating that the phone number is invalid.......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Regestration" name="Register with invalid password" time="0.018">
+        <system-out>
+            <![CDATA[Given I am on the connexion page............................................passed
+And I should see the email or phone number filed............................passed
+And I should see the password field.........................................passed
+And I should see connection button..........................................passed
+When I click on registration................................................passed
+Then The registration page should be open...................................passed
+* I should see the email or phone number filed on registration page.........passed
+* I should see the password field on registration page......................passed
+* I should see the password confirmation field on registration page.........passed
+* I should see the register button..........................................passed
+* I should see GCU checkbox.................................................passed
+When I enter an existing phone number.......................................passed
+* I enter a password that does not meet the requirements....................passed
+* I click on registration...................................................passed
+Then I should see a popup indicating that the password entered does not meet the requirements.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Regestration" name="Register with valid phone number and password" time="0.017">
+        <system-out>
+            <![CDATA[Given I am on the connexion page............................................passed
+And I should see the email or phone number filed............................passed
+And I should see the password field.........................................passed
+And I should see connection button..........................................passed
+When I click on registration................................................passed
+Then The registration page should be open...................................passed
+* I should see the email or phone number filed on registration page.........passed
+* I should see the password field on registration page......................passed
+* I should see the password confirmation field on registration page.........passed
+* I should see the register button..........................................passed
+* I should see GCU checkbox.................................................passed
+When I enter an existing phone number.......................................passed
+* I enter a password that meets the requirements............................passed
+* I click on registration...................................................passed
+Then I should see a popup to confirm that registration is with success......passed
+* I must be logged into my account..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

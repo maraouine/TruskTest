@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sytral" thread-count="1">
+    <test name="Galaxy S10 (Android 9)" group-by-instances="true">
+    <parameter name="deviceIndex" value="0"/>
+        <classes>
+             <class name="StepDefinitions.Runner"/>    
+        </classes>
+    </test>
+ </suite>
