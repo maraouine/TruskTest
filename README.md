@@ -18,7 +18,6 @@ In this project we use PageFactory to implement Page Object Model concept. It's 
 
  # Appium #
 In order to be able to get element, you need Appium. To install Appium follow this : https://www.softwaretestinghelp.com/download-install-and-setup-appium/
-You need to install Appium :
  
  # Maven #
 To install Maven follow this : https://phoenixnap.com/kb/install-maven-windows
@@ -41,7 +40,7 @@ The version used during development are :
 # STEP 1 #
 Clone repository in your local storage by doing :
 
-git clone 
+git clone https://github.com/maraouine/TruskTest.git
 
 # STEP 2 #
 
@@ -112,6 +111,16 @@ In our use case we run all features
 	                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 	        }
 	) 
+
+
+### Report ### 
+
+For report I use : https://www.extentreports.com/docs/versions/4/java/spark-reporter.html
+Report examples : 
+
+![ReportExample1](https://user-images.githubusercontent.com/61714215/192155995-6e1a38dd-550f-4aa8-a7ec-5a7dc7742c42.PNG)
+![ReportExample2](https://user-images.githubusercontent.com/61714215/192156036-d4da32aa-8e41-4b44-a760-2378caa8d4c9.PNG)
+![ReportExample3](https://user-images.githubusercontent.com/61714215/192156048-a5df452f-cfa7-4083-bfd5-a401fd82d7e6.PNG)
 
 
 ### Who do I talk to? ###
